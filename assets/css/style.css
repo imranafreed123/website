@@ -710,6 +710,84 @@ section {
   text-decoration: none;
 }
 
+
+
+
+
+
+.about  .footer-links {
+  margin-bottom: 30px;
+}
+
+.about p{
+  padding-top: 50px;
+}
+
+.about  .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about  .footer-links ul i {
+  padding-right: 2px;
+  color: #47b2e4;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.about  .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.about  .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.about  .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+.about  .footer-links ul a:hover {
+  text-decoration: none;
+  color: #47b2e4;
+}
+
+.about  .social-links a {
+  font-size: 25px;
+  display: inline-block;
+  background: #fff;
+  color: #47b2e4;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.about  .social-links a:hover {
+  background: #209dd8;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -1788,61 +1866,61 @@ section {
   padding-bottom: 12px;
 }
 
-#footer .footer-top .footer-links {
+#footer .footer-newsletter .footer-links {
   margin-bottom: 30px;
 }
 
-#footer .footer-top .footer-links ul {
+#footer .footer-newsletter .footer-links ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-#footer .footer-top .footer-links ul i {
+#footer .footer-newsletter .footer-links ul i {
   padding-right: 2px;
   color: #47b2e4;
   font-size: 18px;
   line-height: 1;
 }
 
-#footer .footer-top .footer-links ul li {
+#footer .footer-newsletter .footer-links ul li {
   padding: 10px 0;
   display: flex;
   align-items: center;
 }
 
-#footer .footer-top .footer-links ul li:first-child {
+#footer .footer-newsletter .footer-links ul li:first-child {
   padding-top: 0;
 }
 
-#footer .footer-top .footer-links ul a {
+#footer .footer-newsletter .footer-links ul a {
   color: #777777;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
-#footer .footer-top .footer-links ul a:hover {
+#footer .footer-newsletter .footer-links ul a:hover {
   text-decoration: none;
   color: #47b2e4;
 }
 
-#footer .footer-top .social-links a {
+#footer .footer-newsletter .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #47b2e4;
-  color: #fff;
+  background: #fff;
+  color: #47b2e4;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
   transition: 0.3s;
 }
 
-#footer .footer-top .social-links a:hover {
+#footer .footer-newsletter .social-links a:hover {
   background: #209dd8;
   color: #fff;
   text-decoration: none;
